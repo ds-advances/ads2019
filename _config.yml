@@ -1,19 +1,26 @@
 # Site settings
 title: "Advances in Data Science, 2019"
-email: "dsi.enquiries@manchester.ac.uk"
+author:
+  name: University of Manchester Data Science Institute
+  email: "dsi.enquiries@manchester.ac.uk"
 description: >
   A 2-day workshop showcasing recent advances in data science methodology and applications.
 baseurl: "/ds-advances2019" # the subpath of your site, e.g. /blog/
 url: "http://ds-advances.github.io" # the base hostname & protocol for your site
 twitter_username: dsi_uom
 github_username: ds-advances
+plugins:
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-remote-theme
+remote_theme: lawrennd/proceedings
+ghub:
+  edit: true
+  repository: ds-advances2017
 
 previous_meeting:
  url: /ds-advances2018
 
-github:
-  edit: true
-  repository: ds-advances.github.io
 
 youtube:
   height: 315
@@ -41,9 +48,11 @@ conference:
   hide_tentative: true
   hosts:  
   
-  room: 
   venue: etc.venues
+  venue_url: https://www.etcvenues.co.uk/
   location: Manchester, UK
+  short_name : MADS
+  full_name: Advances in Data Science
   name: Advances in Data Science
   year: 2019
   month: May
@@ -70,15 +79,20 @@ conference:
   - name: Autotrader
     url: "https://engineering.autotrader.co.uk/"
   organizers:
-  - name: Magnus Rattray
+  - given: Magnus
+    family: Rattray
     url: "https://www.research.manchester.ac.uk/portal/Magnus.Rattray.html"
-  - name: Sophia Ananiadou
+  - given: Sophia
+    family: Ananiadou
     url: "http://www.nactem.ac.uk/staff/sophia.ananiadou/"
-  - name: Emma Barrett
+  - given: Emma
+    family: Barrett
     url: "https://www.research.manchester.ac.uk/portal/emma.barrett.html"
-  - name: Danielle Belgrave
+  - given: Danielle
+    family: Belgrave
     url: "https://www.microsoft.com/en-us/research/people/dabelgra/"
-  - name: Angelo Cangelosi
+  - given: Angelo
+    family: Cangelosi
     url: "https://www.research.manchester.ac.uk/portal/angelo.cangelosi.html"
 
 map:
