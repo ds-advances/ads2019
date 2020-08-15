@@ -83,6 +83,7 @@ conference:
     url: "https://engineering.autotrader.co.uk/"
   chairs:
   - type: Organizers
+    people:
     - given: Magnus
       family: Rattray
       url: "https://www.research.manchester.ac.uk/portal/Magnus.Rattray.html"
