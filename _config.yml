@@ -81,22 +81,23 @@ conference:
     url: "https://www.appleyardlees.com/"
   - name: Autotrader
     url: "https://engineering.autotrader.co.uk/"
-  organizers:
-  - given: Magnus
-    family: Rattray
-    url: "https://www.research.manchester.ac.uk/portal/Magnus.Rattray.html"
-  - given: Sophia
-    family: Ananiadou
-    url: "http://www.nactem.ac.uk/staff/sophia.ananiadou/"
-  - given: Emma
-    family: Barrett
-    url: "https://www.research.manchester.ac.uk/portal/emma.barrett.html"
-  - given: Danielle
-    family: Belgrave
-    url: "https://www.microsoft.com/en-us/research/people/dabelgra/"
-  - given: Angelo
-    family: Cangelosi
-    url: "https://www.research.manchester.ac.uk/portal/angelo.cangelosi.html"
+  chairs:
+  - type: Organizers
+    - given: Magnus
+      family: Rattray
+      url: "https://www.research.manchester.ac.uk/portal/Magnus.Rattray.html"
+    - given: Sophia
+      family: Ananiadou
+      url: "http://www.nactem.ac.uk/staff/sophia.ananiadou/"
+    - given: Emma
+      family: Barrett
+      url: "https://www.research.manchester.ac.uk/portal/emma.barrett.html"
+    - given: Danielle
+      family: Belgrave
+      url: "https://www.microsoft.com/en-us/research/people/dabelgra/"
+    - given: Angelo
+      family: Cangelosi
+      url: "https://www.research.manchester.ac.uk/portal/angelo.cangelosi.html"
 
 map:
   show: False
