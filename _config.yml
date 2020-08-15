@@ -52,6 +52,8 @@ conference:
   venue_url: https://www.etcvenues.co.uk/
   location: Manchester, UK
   short_name : MADS
+  instance: 3rd
+  styling: Workshop on
   full_name: Advances in Data Science
   name: Advances in Data Science
   year: 2019
