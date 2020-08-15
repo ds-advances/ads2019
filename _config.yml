@@ -14,7 +14,7 @@ plugins:
 - jekyll-seo-tag
 - jekyll-remote-theme
 remote_theme: lawrennd/proceedings
-style: dali
+style: aistats
 ghub:
   edit: true
   repository: ds-advances2019
